@@ -30,6 +30,7 @@ class point
     x=0;
     y=0;
   }
+  
   void draw()
   {
     fill(#ff0000);
@@ -50,6 +51,8 @@ class point
   line(890, 294,850, 338);
   line(850, 338,159, 245);
   }
+  
+
 }
 
 point[] locations = {
@@ -68,4 +71,5 @@ point[] locations = {
   new point(890, 294), 
   new point(850, 338)
 };
+
 
